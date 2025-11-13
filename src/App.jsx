@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
-import Careers from './pages/Careers';
+import Careers from './Pages/Careers';
 import HireWithUs from './Pages/HireWithUs';
 
 export default function App() {

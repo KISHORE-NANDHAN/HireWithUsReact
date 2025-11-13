@@ -397,7 +397,7 @@ const JobCard = ({ job, onViewDetails, onApply }) => {
 };
 
 // Main App Component
-const XetaCareersPage = () => {
+const Careers = () => {
   const [theme, setTheme] = useState('dark');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -1041,4 +1041,4 @@ const XetaCareersPage = () => {
   );
 };
 
-export default XetaCareersPage;
+export default Careers;
